@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 51e3b6fcb5a52764f946013948271733
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ajbhnpsobmllhu_costas_0
+    21300002: ajbhnpsobmllhu_costas_1
+    21300004: ajbhnpsobmllhu_costas_2
+    21300006: ajbhnpsobmllhu_costas_3
+    21300008: ajbhnpsobmllhu_costas_4
+    21300010: ajbhnpsobmllhu_costas_5
+    21300012: ajbhnpsobmllhu_costas_6
+    21300014: ajbhnpsobmllhu_costas_7
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ajbhnpsobmllhu_costas_0
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 919
+        width: 460
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.51988167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6804cecabf45e19418109575e8d83bd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajbhnpsobmllhu_costas_1
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 920
+        width: 459
+        height: 255
+      alignment: 9
+      pivot: {x: 0.496102, y: 0.42281422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cd3d3e47015124fae652703a357142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajbhnpsobmllhu_costas_2
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 921
+        width: 458
+        height: 243
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.3159142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7907924f097fb4fa8f4eefc63bbb3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajbhnpsobmllhu_costas_3
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 915
+        width: 459
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5038988, y: 0.30933544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5316163f40f0444b2940ed15b1b232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajbhnpsobmllhu_costas_4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 609
+        width: 458
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4921867, y: 0.40466782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f03f4d5d848d040b25e64c6517dcd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajbhnpsobmllhu_costas_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 607
+        width: 455
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7016a1abaa4cfe4aa257fb6325a65d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajbhnpsobmllhu_costas_6
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 607
+        width: 456
+        height: 264
+      alignment: 9
+      pivot: {x: 0.49215242, y: 0.58133256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3441a303a7a39df488785477aa9edc88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ajbhnpsobmllhu_costas_7
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 610
+        width: 456
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5039244, y: 0.5830756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e97ed099a041343a368ce0c39039e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 68fba591c5131084db563433312e0d71
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

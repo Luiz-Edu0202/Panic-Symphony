@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 30dc407b336c5114e8cfce7ece6eee39
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "cut10fa,.\xE7\xB4;,fzlhu_direita_0"
+    21300002: "cut10fa,.\xE7\xB4;,fzlhu_direita_1"
+    21300004: "cut10fa,.\xE7\xB4;,fzlhu_direita_2"
+    21300006: "cut10fa,.\xE7\xB4;,fzlhu_direita_3"
+    21300008: "cut10fa,.\xE7\xB4;,fzlhu_direita_4"
+    21300010: "cut10fa,.\xE7\xB4;,fzlhu_direita_5"
+    21300012: "cut10fa,.\xE7\xB4;,fzlhu_direita_6"
+    21300014: "cut10fa,.\xE7\xB4;,fzlhu_direita_7"
+    21300016: "cut10fa,.\xE7\xB4;,fzlhu_direita_8"
+    21300018: "cut10fa,.\xE7\xB4;,fzlhu_direita_9"
+    21300020: "cut10fa,.\xE7\xB4;,fzlhu_direita_10"
+    21300022: "cut10fa,.\xE7\xB4;,fzlhu_direita_11"
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "cut10fa,.\xE7\xB4;,fzlhu_direita_0"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 927
+        width: 509
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ffd02a42a1ee5488d524de10c14fb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cut10fa,.\xE7\xB4;,fzlhu_direita_2"
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 930
+        width: 509
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3837da64f38c8454ebea669fc33e8660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cut10fa,.\xE7\xB4;,fzlhu_direita_3"
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 923
+        width: 503
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38309406e3f630946ba39779263f3bd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cut10fa,.\xE7\xB4;,fzlhu_direita_5"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 659
+        width: 503
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125ef0f41a044954386cc201252badcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cut10fa,.\xE7\xB4;,fzlhu_direita_6"
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 657
+        width: 503
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ba3123f3cefbf498f5e7502952fe49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cut10fa,.\xE7\xB4;,fzlhu_direita_7"
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 658
+        width: 499
+        height: 243
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9544dbed3dc62cf4e9db9dbcae4211f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cut10fa,.\xE7\xB4;,fzlhu_direita_9"
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 378
+        width: 508
+        height: 276
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcd2cb9d68efb6419e2d68416066b41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "cut10fa,.\xE7\xB4;,fzlhu_direita_11"
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 382
+        width: 509
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d965dc83144f6364e9a6d205b0de28df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a0c77ec3c11df294783861442f27c68e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 315927422}
   m_Layer: 0
   m_Name: GameData
-  m_TagString: EditorOnly
+  m_TagString: Data
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

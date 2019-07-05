@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Data
   layers:
   - Default
   - TransparentFX
@@ -40,6 +41,9 @@ TagManager:
   m_SortingLayers:
   - name: BackGroung
     uniqueID: 2817966943
+    locked: 0
+  - name: Assets
+    uniqueID: 596006093
     locked: 0
   - name: Default
     uniqueID: 0
