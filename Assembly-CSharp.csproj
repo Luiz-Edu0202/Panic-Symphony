@@ -53,8 +53,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CharacterControler.cs" />
-     <Compile Include="Assets\Scripts\SceneControler.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\CharacterLifeBehavior.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\CharacterMovimentControler.cs" />
+     <Compile Include="Assets\Scripts\Game\Character\CharacterShot.cs" />
+     <Compile Include="Assets\Scripts\Menu\CharacterControler.cs" />
+     <Compile Include="Assets\Scripts\Scene\SceneControler.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/LuizEduardo/Desktop/Projetos/Panic Symphony_3.0/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
