@@ -713,6 +713,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LifeCounter: 5
+--- !u!1 &815566228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157344402581917380, guid: 25c2cb5835a051f42b046f6bc563ad11,
+    type: 3}
+  m_PrefabInstance: {fileID: 63039090874087323}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &876674550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,6 +1785,7 @@ MonoBehaviour:
   BulletPrefab: {fileID: 157344402581917380, guid: 25c2cb5835a051f42b046f6bc563ad11,
     type: 3}
   PositionOnPlayer: {fileID: 2122263453}
+  bulletWay: 
 --- !u!1001 &63039090874087323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1846,5 +1853,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5023716193263758037, guid: 25c2cb5835a051f42b046f6bc563ad11,
+        type: 3}
+      propertyPath: Bullet
+      value: 
+      objectReference: {fileID: 815566228}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25c2cb5835a051f42b046f6bc563ad11, type: 3}

@@ -14,7 +14,7 @@ public class CharacterMovimentControler : MonoBehaviour
     {
         Moviment();
     }
-
+    // Update is called once per frame
     void Moviment()
     {
         SpeedX = Input.GetAxis("Horizontal") * standardSpeed;
