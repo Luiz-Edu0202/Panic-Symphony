@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum BulletWay{Down,Up,Rigth,Left};
 public class CharacterShot : MonoBehaviour
 {
     [SerializeField] private GameObject BulletPrefab;
     //This Variable keep the prefab of the bullet
     [SerializeField] private Transform PositionOnPlayer;
     //This Variable Keep the Component Tranform of the player
-
-    [SerializeField] private string bulletWay;
     void Update()
     {
         Shot();
@@ -22,8 +21,6 @@ public class CharacterShot : MonoBehaviour
         {
             Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(0.5f,0.1f,0),Quaternion.identity);
             //This command instance(Create) a bullet prefab close to the position of player, on down
-            bulletWay = "Down";
-            //This Variable say the side who go the bullet
         }
         //If the button P is pressed and the buttons W A S D are loosened these commands are executed
         else if(Input.GetKeyDown(KeyCode.P) && Input.GetKey(KeyCode.S))
@@ -31,8 +28,6 @@ public class CharacterShot : MonoBehaviour
             //Escale of image 0,4
             Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(0.5f,0.1f,0),Quaternion.identity);
             //This command instance(Create) a bullet prefab close to the position of player on down
-            bulletWay = "Down";
-            //This Variable say the side who go the bullet
         }
         //If the buttons P and S are pressed these commands are executed
         else if(Input.GetKeyDown(KeyCode.P) && Input.GetKey(KeyCode.A))
@@ -40,8 +35,6 @@ public class CharacterShot : MonoBehaviour
             //Escale of image 0,5
             Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(-0.7f,0.1f,0),Quaternion.identity);
             //This command instance(Create) a bullet prefab close to the position of player at left
-            bulletWay = "Left";
-            //This Variable say the side who go the bullet
         }
         //If the buttons P and A are pressed these commands are executed
          else if(Input.GetKeyDown(KeyCode.P) && Input.GetKey(KeyCode.D))
@@ -49,8 +42,6 @@ public class CharacterShot : MonoBehaviour
             //Escale of image 0,4
             Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(0.8f,0.1f,0),Quaternion.identity);
             //This command instance(Create) a bullet prefab close to the position of player on rigth
-            bulletWay = "Rigth";
-            //This Variable say the side who go the bullet
         }
         //If the buttons P and D are pressed these commands are executed
         else if(Input.GetKeyDown(KeyCode.P) && Input.GetKey(KeyCode.W))
@@ -58,14 +49,7 @@ public class CharacterShot : MonoBehaviour
             //Escale of image 0,4
             Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(-0.5f,0.1f,0),Quaternion.identity);
             //This command instance(Create) a bullet prefab close to the position of player on Up
-            bulletWay = "Up";
-            //This Variable say the side who go the bullet
         }
         //If the buttons P and W are pressed these commands are executed
-    }
-
-    public void SayBulletWay(string BulletWayForOtherScript)
-    {
-        BulletWayForOtherScript = this.bulletWay;
     }
 }

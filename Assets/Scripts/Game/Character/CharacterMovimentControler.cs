@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class CharacterMovimentControler : MonoBehaviour
 {
-    [SerializeField] float standardSpeed;
+    public BulletBehavior Bullet;
+    //This Variable say whose side go the bullet
+    [SerializeField] private float standardSpeed;
     //this variable is what the program uses as default for speed
-    [SerializeField] float SpeedX;
+    [SerializeField] private float SpeedX;
     //This variable is the speed of X axis
-    [SerializeField] float SpeedY;
+    [SerializeField] private float SpeedY;
         //This variable is the speed of Y axis
+    void Star()
+    {
+        // Bullet = GameObject.FindGameObjectWithTag("Bullet");
+    }
     void Update()
     {
         Moviment();
@@ -25,6 +31,33 @@ public class CharacterMovimentControler : MonoBehaviour
         of the return of the Vertival get axis method and the standard velocity*/
         this.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(SpeedX,SpeedY);
         //This method set the velocity(velocity of the Componet Rigidbody2D) to the two velocitys (Speed x, Speed Y)
+
+        if(Input.GetKeyDown(KeyCode.W))
+        {
+            // BulletWayOnWalking = BulletWay.Up;
+            Bullet.direção = Vector3.up;
+        }
+        else if(Input.GetKeyDown(KeyCode.S))
+        {
+             Bullet.direção = Vector3.down;
+            // BulletWayOnWalking = BulletWay.Down;
+        }
+        else if(Input.GetKeyDown(KeyCode.A))
+        {   
+            Bullet.direção = Vector3.left;
+            // BulletWayOnWalking = BulletWay.Left;
+        }
+        else if(Input.GetKeyDown(KeyCode.D))
+        {
+            Bullet.direção = Vector3.right;
+            // BulletWayOnWalking = BulletWay.Rigth;
+        }
+        else if( Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.D))
+        {
+            Bullet.direção = Vector3.down;
+            // BulletWayOnWalking = BulletWay.Down;
+        }
+        
     }
     //This method do the moviment of the character
 }
