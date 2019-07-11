@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum BulletWay{Down,Up,Rigth,Left};
 public class CharacterShot : MonoBehaviour
 {
     [SerializeField] private GameObject BulletPrefab;

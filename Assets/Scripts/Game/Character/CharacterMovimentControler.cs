@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CharacterMovimentControler : MonoBehaviour
 {
-    public BulletBehavior Bullet;
+    public BulletWay BulletWayOnWalking;
+    public GameObject Bullet;
     //This Variable say whose side go the bullet
     [SerializeField] private float standardSpeed;
     //this variable is what the program uses as default for speed
@@ -14,7 +15,7 @@ public class CharacterMovimentControler : MonoBehaviour
         //This variable is the speed of Y axis
     void Star()
     {
-        // Bullet = GameObject.FindGameObjectWithTag("Bullet");
+        Bullet = GameObject.FindGameObjectWithTag("Bullet");
     }
     void Update()
     {
@@ -34,28 +35,26 @@ public class CharacterMovimentControler : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.W))
         {
-            // BulletWayOnWalking = BulletWay.Up;
-            Bullet.direção = Vector3.up;
+            BulletWayOnWalking = BulletWay.Up;
+            
         }
         else if(Input.GetKeyDown(KeyCode.S))
         {
-             Bullet.direção = Vector3.down;
-            // BulletWayOnWalking = BulletWay.Down;
+            
+            BulletWayOnWalking = BulletWay.Down;
         }
         else if(Input.GetKeyDown(KeyCode.A))
         {   
-            Bullet.direção = Vector3.left;
-            // BulletWayOnWalking = BulletWay.Left;
+            
+            BulletWayOnWalking = BulletWay.Left;
         }
         else if(Input.GetKeyDown(KeyCode.D))
         {
-            Bullet.direção = Vector3.right;
-            // BulletWayOnWalking = BulletWay.Rigth;
+            BulletWayOnWalking = BulletWay.Rigth;
         }
         else if( Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.D))
         {
-            Bullet.direção = Vector3.down;
-            // BulletWayOnWalking = BulletWay.Down;
+            BulletWayOnWalking = BulletWay.Down;
         }
         
     }
