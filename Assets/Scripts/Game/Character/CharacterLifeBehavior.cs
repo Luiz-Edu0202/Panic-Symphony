@@ -10,7 +10,7 @@ public class CharacterLifeBehavior : MonoBehaviour
     //This is the variable that holds the character's life counter
      void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.otherCollider.tag == "Shot")
+        if(col.otherCollider.tag == "Bullet")
         {
             Damage();
             //The character take a damage
@@ -19,7 +19,20 @@ public class CharacterLifeBehavior : MonoBehaviour
 
     }
 //This method takes the collision data and uses it
-    void Damage()
+
+    void Update()
+    {
+        Death();
+    }
+    
+    public void Death()
+    {
+        if(LifeCounter <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+    public void Damage()
     {
         if(CanTakeDamage)
         {

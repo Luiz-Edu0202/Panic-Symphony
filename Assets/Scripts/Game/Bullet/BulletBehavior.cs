@@ -5,21 +5,30 @@ using UnityEngine;
 public enum BulletWay{Down,Up,Rigth,Left};
 public class BulletBehavior : MonoBehaviour
 {
-    public GameObject Player;
+    public Player WhoIsThePlayerWhoThrew;
+    public Characters WhoCharacterHeChoice;
+    public GameObject Player1;
+    public GameObject Player2;
     public GameObject Bullet;
-
-    // public CharacterMovimentControler BulletMoviment;
 
     [SerializeField]private BulletWay BulletWaySide;
 
-    [SerializeField] private float Speed = 200f;   
+    [SerializeField] private float Speed;   
 
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
+        Player1 = GameObject.FindGameObjectWithTag("Player 1");
+        Player2 = GameObject.FindGameObjectWithTag("Player 2");
         Bullet = GameObject.FindGameObjectWithTag("Bullet");
-        SayBulletWay();
-
+        if(WhoIsThePlayerWhoThrew == Player.Player1)
+        {
+            BulletWaySide = Player1.GetComponent<CharacterMovimentControler>().BulletWayOnWalking;
+        }
+        else if(WhoIsThePlayerWhoThrew == Player.Player2)
+        {
+            BulletWaySide = Player2.GetComponent<CharacterMovimentControler>().BulletWayOnWalking;
+        }
+        
     }
     void Update()
     {   
@@ -30,30 +39,70 @@ public class BulletBehavior : MonoBehaviour
     {
          if(BulletWaySide == BulletWay.Down)
         {
-            print("a");
+            // print("a");
             GetComponent<Rigidbody2D>().velocity = new Vector2(0,-Speed);
         }
         else if(BulletWaySide == BulletWay.Up)
         {
-            print("b");
+            // print("b");
             GetComponent<Rigidbody2D>().velocity = new Vector2(0,Speed);
         }
         else if(BulletWaySide == BulletWay.Left)
         {
-            print("c");
+            // print("c");
             GetComponent<Rigidbody2D>().velocity = new Vector2(-Speed,0);
         }
         else if(BulletWaySide == BulletWay.Rigth)
         {
-            print("d");
+            // print("d");
             GetComponent<Rigidbody2D>().velocity = new Vector2(Speed,0);
         }
-        print("chablau");
+        // print("chablau");
     }
 
-    public void SayBulletWay()
+    // public void SayBulletWay()
+    // {
+
+    //     BulletWaySide = Player.GetComponent<CharacterMovimentControler>().BulletWayOnWalking;
+    // }
+
+    void OnCollisionEnter2D(Collision2D col)
     {
-        BulletWaySide = Player.GetComponent<CharacterMovimentControler>().BulletWayOnWalking;
+        // print("delicia");
+        print(col.collider.tag);
+        if(col.collider.tag == "Wall")
+        {
+            // print("Demais");
+            Destroy(this.gameObject);
+        }
+        else if(col.collider.tag == "Chair")
+        {
+            Destroy(this.gameObject);
+        }
+        else if(col.collider.tag == "Player 1" || col.collider.tag == "Player 2")
+        {
+            if(WhoIsThePlayerWhoThrew == Player.Player1)
+            {
+                if(col.collider.tag == "Player 2")
+                {
+                    Player2.GetComponent<CharacterLifeBehavior>().Damage();
+                    Destroy(this.gameObject);
+                }
+                
+            }
+            else if(WhoIsThePlayerWhoThrew == Player.Player2)
+            {
+                if(col.collider.tag == "Player 1")
+                {
+                    Player1.GetComponent<CharacterLifeBehavior>().Damage();
+                    Destroy(this.gameObject);
+                }
+                
+            }
+
+            
+        }
+         
     }
 
 }

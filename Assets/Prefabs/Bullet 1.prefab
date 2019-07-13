@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1266663539697574770}
   - component: {fileID: 2320726002519026404}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Bullet 1
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,10 +94,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b364f145ef3c5343b5573802ea28793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  WhoIsThePlayerWhoThrew: 1
+  WhoCharacterHeChoice: 0
+  Player1: {fileID: 0}
+  Player2: {fileID: 0}
   Bullet: {fileID: 0}
   BulletWaySide: 0
-  Speed: 20
+  Speed: 30
 --- !u!50 &1266663539697574770
 Rigidbody2D:
   serializedVersion: 4

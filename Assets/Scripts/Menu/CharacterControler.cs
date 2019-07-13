@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Characters{Eugene,Cthulhu,Maurice};
 public class CharacterControler : MonoBehaviour
 {
-    public enum Characters{Eugene,Cthulhu,Maurice};
 
     public bool firstChoicing = true;
-    [SerializeField]Characters player1;
-    [SerializeField]Characters player2;
+    public Characters player1;
+    public Characters player2;
 
     public void ShowWhoIsChoicing(bool Choicer)
     {
