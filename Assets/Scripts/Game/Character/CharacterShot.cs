@@ -11,6 +11,10 @@ public class CharacterShot : MonoBehaviour
     //This Variable keep the prefab of the bullet
     [SerializeField] private Transform PositionOnPlayer;
     //This Variable Keep the Component Tranform of the player
+    public void RestarBullets()
+    {
+        bulletsCount = 5;
+    }
     void Update()
     {
         Shot();
@@ -25,22 +29,27 @@ public class CharacterShot : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.R))
             {
+                this.gameObject.GetComponent<CharacterMovimentControler>().CanMovimentate = false;
                 StartCoroutine("StarRecharge");
             }
             else if(Input.GetKeyUp(KeyCode.R))
             {
+                this.gameObject.GetComponent<CharacterMovimentControler>().CanMovimentate = true;
                 StopCoroutine("StarRecharge");
             }
         }
         else if(WhoIsThisPlayer == Player.Player2)
         {
-            if(Input.GetKeyDown(KeyCode.RightAlt))
+            if(Input.GetKeyDown(KeyCode.P))
             {
+                this.gameObject.GetComponent<CharacterMovimentControler>().CanMovimentate = false;
                 StartCoroutine("StarRecharge");
             }
-            else if(Input.GetKeyUp(KeyCode.RightAlt))
+            else if(Input.GetKeyUp(KeyCode.P))
             {
+                this.gameObject.GetComponent<CharacterMovimentControler>().CanMovimentate = true;
                 StopCoroutine("StarRecharge");
+                
             }
         }
 
@@ -49,6 +58,7 @@ public class CharacterShot : MonoBehaviour
     IEnumerator StarRecharge()
     {
         yield return new WaitForSeconds(3f);
+        this.gameObject.GetComponent<CharacterMovimentControler>().CanMovimentate = true;
         bulletsCount = 5;
     }
     void Shot()
@@ -99,14 +109,14 @@ public class CharacterShot : MonoBehaviour
             }
             else if(WhoIsThisPlayer == Player.Player2)
             {
-                if(Input.GetKeyDown(KeyCode.RightControl)&& !Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
+                if(Input.GetKeyDown(KeyCode.O)&& !Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
                 {
                     Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(0.5f,0.1f,0),Quaternion.identity);
                     //This command instance(Create) a bullet prefab close to the position of player, on down
                     bulletsCount--;
                 }
                 //If the button RightControl is pressed and the buttons UpArrow LeftArrow DownArrow RightArrow are loosened these commands are executed
-                else if(Input.GetKeyDown(KeyCode.RightControl) && Input.GetKey(KeyCode.DownArrow))
+                else if(Input.GetKeyDown(KeyCode.O) && Input.GetKey(KeyCode.DownArrow))
                 {
                     //Escale of image 0,4
                     Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(0.5f,0.1f,0),Quaternion.identity);
@@ -114,7 +124,7 @@ public class CharacterShot : MonoBehaviour
                     bulletsCount--;
                 }
                 //If the buttons RightControl and DownArrow are pressed these commands are executed
-                else if(Input.GetKeyDown(KeyCode.RightControl) && Input.GetKey(KeyCode.LeftArrow))
+                else if(Input.GetKeyDown(KeyCode.O) && Input.GetKey(KeyCode.LeftArrow))
                 {
                     //Escale of image 0,5
                     Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(-0.7f,0.1f,0),Quaternion.identity);
@@ -122,7 +132,7 @@ public class CharacterShot : MonoBehaviour
                     bulletsCount--;
                 }
                 //If the buttons RightControl and LeftArrow are pressed these commands are executed
-                else if(Input.GetKeyDown(KeyCode.RightControl) && Input.GetKey(KeyCode.RightArrow))
+                else if(Input.GetKeyDown(KeyCode.O) && Input.GetKey(KeyCode.RightArrow))
                 {
                     //Escale of image 0,4
                     Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(0.8f,0.1f,0),Quaternion.identity);
@@ -130,7 +140,7 @@ public class CharacterShot : MonoBehaviour
                     bulletsCount--;
                 }
                 //If the buttons RightControl and RightArrow are pressed these commands are executed
-                else if(Input.GetKeyDown(KeyCode.RightControl) && Input.GetKey(KeyCode.UpArrow))
+                else if(Input.GetKeyDown(KeyCode.O) && Input.GetKey(KeyCode.UpArrow))
                 {
                     //Escale of image 0,4
                     Instantiate(BulletPrefab,PositionOnPlayer.position + new Vector3(-0.5f,0.1f,0),Quaternion.identity);

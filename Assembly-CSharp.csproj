@@ -58,6 +58,8 @@
      <Compile Include="Assets\Scripts\Game\Character\CharacterLifeBehavior.cs" />
      <Compile Include="Assets\Scripts\Game\Character\CharacterMovimentControler.cs" />
      <Compile Include="Assets\Scripts\Game\Character\CharacterShot.cs" />
+     <Compile Include="Assets\Scripts\Game\Match\GameScoreControler.cs" />
+     <Compile Include="Assets\Scripts\Game\Match\MatchTimeControler.cs" />
      <Compile Include="Assets\Scripts\Menu\CharacterControler.cs" />
      <Compile Include="Assets\Scripts\Scene\SceneControler.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">

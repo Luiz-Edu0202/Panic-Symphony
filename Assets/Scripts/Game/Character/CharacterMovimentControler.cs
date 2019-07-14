@@ -7,6 +7,7 @@ public class CharacterMovimentControler : MonoBehaviour
     [SerializeField] private Player WhoisThisPlayer;
     [SerializeField]private Characters WhoCharacterHeChoice;
  
+    public bool CanMovimentate = true; 
     public BulletWay BulletWayOnWalking;
     public GameObject Bullet;
     //This Variable say whose side go the bullet
@@ -29,13 +30,20 @@ public class CharacterMovimentControler : MonoBehaviour
     // Update is called once per frame
     void Moviment()
     {
-        if(WhoisThisPlayer == Player.Player1)
+        if(CanMovimentate)
         {
-           Player1();
+            if(WhoisThisPlayer == Player.Player1)
+            {
+                Player1();
+            }
+            else if(WhoisThisPlayer == Player.Player2)
+            {
+                Player2();
+            }
         }
-        else if(WhoisThisPlayer == Player.Player2)
+        else
         {
-            Player2();
+            this.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
         }
         
     }

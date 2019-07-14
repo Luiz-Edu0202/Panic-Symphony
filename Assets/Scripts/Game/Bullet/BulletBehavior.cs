@@ -69,7 +69,7 @@ public class BulletBehavior : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         // print("delicia");
-        print(col.collider.tag);
+        //print(col.collider.tag);
         if(col.collider.tag == "Wall")
         {
             // print("Demais");

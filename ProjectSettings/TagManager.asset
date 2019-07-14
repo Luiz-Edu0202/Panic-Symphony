@@ -11,6 +11,8 @@ TagManager:
   - Chair
   - Player 1
   - Player 2
+  - Match Controler
+  - RIP
   layers:
   - Default
   - TransparentFX
