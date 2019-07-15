@@ -927,7 +927,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: 1
   Character: 0
-  anim: {fileID: 0}
+  anim: {fileID: 691683510}
+  EugeneAnimation: {fileID: 9100000, guid: 853d8183f91d20b468d01c31cef4c9c0, type: 2}
+  MauriceAnimation: {fileID: 9100000, guid: 67b5087eba3370b459e4695fe39bbca8, type: 2}
+  ChuthuluAnimation: {fileID: 9100000, guid: eb93ab8c4291c7d479eda92c647ba7c4, type: 2}
   CanMovimentate: 1
   BulletWayOnWalking: 0
   standardSpeed: 4
@@ -948,7 +951,7 @@ MonoBehaviour:
   Player: 1
   Character: 0
   MatchControler: {fileID: 0}
-  LifeCounter: 1
+  LifeCounter: 5
 --- !u!114 &691683507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1040,7 +1043,7 @@ Animator:
   m_GameObject: {fileID: 691683501}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: eb93ab8c4291c7d479eda92c647ba7c4, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2467,7 +2470,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: 0
   Character: 0
-  anim: {fileID: 0}
+  anim: {fileID: 2122263460}
+  EugeneAnimation: {fileID: 9100000, guid: 853d8183f91d20b468d01c31cef4c9c0, type: 2}
+  MauriceAnimation: {fileID: 9100000, guid: 67b5087eba3370b459e4695fe39bbca8, type: 2}
+  ChuthuluAnimation: {fileID: 9100000, guid: eb93ab8c4291c7d479eda92c647ba7c4, type: 2}
   CanMovimentate: 1
   BulletWayOnWalking: 0
   standardSpeed: 4
@@ -2558,7 +2564,7 @@ Animator:
   m_GameObject: {fileID: 2122263452}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 67b5087eba3370b459e4695fe39bbca8, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

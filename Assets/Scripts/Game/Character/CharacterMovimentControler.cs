@@ -7,7 +7,11 @@ public class CharacterMovimentControler : MonoBehaviour
 {
     [SerializeField] private Player Player;
     [SerializeField] private Characters Character;
+
     public Animator anim;
+    public RuntimeAnimatorController EugeneAnimation;
+    public RuntimeAnimatorController MauriceAnimation;
+    public RuntimeAnimatorController ChuthuluAnimation;
     public bool CanMovimentate = true; 
     public BulletWay BulletWayOnWalking;
     //This Variable say whose side go the bullet
@@ -22,6 +26,7 @@ public class CharacterMovimentControler : MonoBehaviour
         anim = GetComponent<Animator>();
         Player = GetComponent<CharacterIdentity>().WhoIsThisPlayer;
         Character = this.gameObject.GetComponent<CharacterIdentity>().WhoCharacterHeChoice;
+        CharacterAnimationChoicer();
     }
     void Update()
     {
@@ -30,6 +35,21 @@ public class CharacterMovimentControler : MonoBehaviour
         
     }
     // Update is called once per frame
+    void CharacterAnimationChoicer()
+    {
+        if(Character == Characters.Eugene)
+        {
+            anim.runtimeAnimatorController = EugeneAnimation;
+        }
+        else if(Character == Characters.Cthulhu)
+        {
+            anim.runtimeAnimatorController = ChuthuluAnimation;
+        }
+        else if(Character == Characters.Maurice)
+        {
+            anim.runtimeAnimatorController = MauriceAnimation;
+        }
+    }
     void Moviment()
     {
         if(CanMovimentate)
