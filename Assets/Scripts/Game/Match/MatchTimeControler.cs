@@ -7,6 +7,7 @@ public class MatchTimeControler : MonoBehaviour
 {
     [SerializeField] private float TimerOfMatch;
     public GameObject TimerTex;
+    public GameObject WinShower;
     void Start()
     {
         TimerTex = GameObject.FindGameObjectWithTag("Timer Text");
@@ -25,7 +26,20 @@ public class MatchTimeControler : MonoBehaviour
             if(TimerOfMatch <= 0)
             {
                 Time.timeScale = 0;
+                EndOfMatch();
             }
+        }
+    }
+
+    void EndOfMatch()
+    {
+        if(GetComponent<GameScoreControler>().Player1Score > GetComponent<GameScoreControler>().Player2Score)
+        {
+            Instantiate(WinShower,new Vector3(-2.2f,-0.4f,0), Quaternion.identity);
+        }
+        else if(GetComponent<GameScoreControler>().Player1Score < GetComponent<GameScoreControler>().Player2Score)
+        {
+            Instantiate(WinShower,new Vector3(2.2f,-0.4f,0), Quaternion.identity);
         }
     }
 }

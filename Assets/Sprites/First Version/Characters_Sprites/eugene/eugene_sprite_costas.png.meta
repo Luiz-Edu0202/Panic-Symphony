@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: df49e46965b571c448c5be754c29cf3d
+guid: 373252ef0138ce54498be4bf99197ebc
 TextureImporter:
   fileIDToRecycleName:
     21300000: eugene_sprite_costas_1
@@ -9,14 +9,13 @@ TextureImporter:
     21300008: eugene_sprite_costas_5
     21300010: eugene_sprite_costas_6
     21300012: eugene_sprite_costas_7
-    21300014: eugene_sprite_costas_10
-    21300016: eugene_sprite_costas_11
-    21300018: eugene_sprite_costas_12
-    21300020: eugene_sprite_costas_13
-    21300022: eugene_sprite_costas_14
-    21300024: eugene_sprite_costas_15
-    21300026: eugene_sprite_costas_16
-    21300028: eugene_sprite_costas_17
+    21300014: eugene_sprite_costas_11
+    21300016: eugene_sprite_costas_12
+    21300018: eugene_sprite_costas_13
+    21300020: eugene_sprite_costas_14
+    21300022: eugene_sprite_costas_15
+    21300024: eugene_sprite_costas_16
+    21300026: eugene_sprite_costas_17
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -46,7 +45,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -95,6 +94,28 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,7 +134,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16e632693ee93f74aa1dcd3481a9949d
+      spriteID: a5e6a900e39d0c64c892f238ad9fd0de
       vertices: []
       indices: 
       edges: []
@@ -123,9 +144,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 796
-        y: 704
+        y: 708
         width: 332
-        height: 331
+        height: 327
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,7 +154,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc9dde008e8aebc42b31d86a2e782b76
+      spriteID: 96684b213f4f0114a9c82fc2ff6586ef
       vertices: []
       indices: 
       edges: []
@@ -142,8 +163,8 @@ TextureImporter:
       name: eugene_sprite_costas_3
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 734
+        x: 1172
+        y: 715
         width: 332
         height: 320
       alignment: 0
@@ -153,7 +174,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e078fbc06f6384da112cc7f34fa079
+      spriteID: 48495f164eed4f245b6b77ae2fb6c363
       vertices: []
       indices: 
       edges: []
@@ -163,7 +184,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1566
-        y: 716
+        y: 714
         width: 335
         height: 319
       alignment: 0
@@ -173,7 +194,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fd257fbc0637e747ae394f7fb859905
+      spriteID: 20e3069474d783b44826a357c395be4c
       vertices: []
       indices: 
       edges: []
@@ -193,7 +214,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5477e74f9fb96184a93c44860e839549
+      spriteID: d6cfe84a50f98014c97a2c4b86f897df
       vertices: []
       indices: 
       edges: []
@@ -202,68 +223,8 @@ TextureImporter:
       name: eugene_sprite_costas_6
       rect:
         serializedVersion: 2
-        x: 22
-        y: 333
-        width: 336
-        height: 333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f75548ef0fd2dc84e99907f68add8b18
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eugene_sprite_costas_7
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 340
-        width: 333
-        height: 325
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9448a484d3bb684687891ebeef4f483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eugene_sprite_costas_10
-      rect:
-        serializedVersion: 2
-        x: 1649
-        y: 636
-        width: 180
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f30e3cd7bc291cf45ab098d575e946bd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eugene_sprite_costas_11
-      rect:
-        serializedVersion: 2
-        x: 794
-        y: 337
+        x: 24
+        y: 336
         width: 334
         height: 329
       alignment: 0
@@ -273,7 +234,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49b30f11095fafe418c08de3feac49db
+      spriteID: 5b42f23073bc9a649ab35e4fba341ec5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_sprite_costas_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 340
+        width: 332
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9c6e75dbb2a954e8612a86ff660b7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_sprite_costas_11
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 341
+        width: 332
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81659c7ced12f5641a012d292b9e9758
       vertices: []
       indices: 
       edges: []
@@ -282,10 +283,10 @@ TextureImporter:
       name: eugene_sprite_costas_12
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 333
-        width: 332
-        height: 333
+        x: 1193
+        y: 335
+        width: 330
+        height: 330
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,7 +294,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1321e438a59f4fe4cbd4e73fe31a9a4f
+      spriteID: 17db3cbf170e8b54cac5403d221caf5e
       vertices: []
       indices: 
       edges: []
@@ -303,9 +304,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1588
-        y: 337
+        y: 332
         width: 332
-        height: 298
+        height: 341
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +314,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36271e5871966664a863e7b6c7599531
+      spriteID: e437e740c068d094e8f758c8f2f5b071
       vertices: []
       indices: 
       edges: []
@@ -322,9 +323,9 @@ TextureImporter:
       name: eugene_sprite_costas_14
       rect:
         serializedVersion: 2
-        x: 23
+        x: 25
         y: 0
-        width: 336
+        width: 331
         height: 323
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -333,7 +334,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4affe169bd115354d92b929a5847069b
+      spriteID: 22b4f9813451137449cba8d0d13ca8a8
       vertices: []
       indices: 
       edges: []
@@ -343,9 +344,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 403
-        y: 6
+        y: 8
         width: 333
-        height: 317
+        height: 315
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,7 +354,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5d978fe5e0923e418b1b37978384641
+      spriteID: 145b0095725d7014fb1815617cd87061
       vertices: []
       indices: 
       edges: []
@@ -362,9 +363,9 @@ TextureImporter:
       name: eugene_sprite_costas_16
       rect:
         serializedVersion: 2
-        x: 794
+        x: 796
         y: 0
-        width: 334
+        width: 332
         height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -373,7 +374,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e13963b66eaf1e48baa55d0c00fc389
+      spriteID: a6f65b1911620ed49a4797a5d378f4e8
       vertices: []
       indices: 
       edges: []
@@ -393,7 +394,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 757019ec3c0a0fc4e88345779bd723f3
+      spriteID: 0043e506130d73d45a26363d61809ba1
       vertices: []
       indices: 
       edges: []
@@ -401,7 +402,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: eb1df606f4b5e0840ac7f8abfb967cd4
+    spriteID: e4356c98c54c250499c20a1414bd6590
     vertices: []
     indices: 
     edges: []

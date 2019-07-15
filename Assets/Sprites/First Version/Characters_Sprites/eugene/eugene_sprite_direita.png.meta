@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8b3fd5b1d96100346bd9c0ca7f571fba
+guid: 1651d0113fea7744da8f5320e13b8a4e
 TextureImporter:
   fileIDToRecycleName:
     21300000: eugene_sprite_direita_0
@@ -10,6 +10,7 @@ TextureImporter:
     21300010: eugene_sprite_direita_6
     21300012: eugene_sprite_direita_7
     21300014: eugene_sprite_direita_8
+    21300016: eugene_sprite_direita_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -39,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -88,6 +89,28 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -95,18 +118,18 @@ TextureImporter:
       name: eugene_sprite_direita_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 708
-        width: 505
-        height: 363
+        x: 611
+        y: 912
+        width: 388
+        height: 270
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 075ce68d4f22a364bb675c03e742795c
+      spriteID: e4deeda510e5dc14bac8a07506df5d95
       vertices: []
       indices: 
       edges: []
@@ -115,18 +138,38 @@ TextureImporter:
       name: eugene_sprite_direita_1
       rect:
         serializedVersion: 2
-        x: 654
-        y: 728
-        width: 508
-        height: 349
+        x: 1049
+        y: 898
+        width: 389
+        height: 277
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df916015823de754195bc9ab3135a352
+      spriteID: 0de7213f418e7384d9e79a200b05072a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eugene_sprite_direita_2
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 908
+        width: 389
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54654007f6901e44951a25428a1e489
       vertices: []
       indices: 
       edges: []
@@ -135,18 +178,18 @@ TextureImporter:
       name: eugene_sprite_direita_3
       rect:
         serializedVersion: 2
-        x: 1228
-        y: 720
-        width: 510
-        height: 360
+        x: 1924
+        y: 904
+        width: 389
+        height: 275
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a2232f16ddcd5549b834cca6723add0
+      spriteID: 3b27fd7f948e9484c8b1cbf9c5e55539
       vertices: []
       indices: 
       edges: []
@@ -155,18 +198,18 @@ TextureImporter:
       name: eugene_sprite_direita_4
       rect:
         serializedVersion: 2
-        x: 106
-        y: 364
-        width: 501
-        height: 354
+        x: 1042
+        y: 536
+        width: 388
+        height: 259
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3a362817b6ea14a8968ce0f16e4c03
+      spriteID: a127aecb83207d8429fe0eaf7525d385
       vertices: []
       indices: 
       edges: []
@@ -175,18 +218,18 @@ TextureImporter:
       name: eugene_sprite_direita_5
       rect:
         serializedVersion: 2
-        x: 644
-        y: 367
-        width: 506
-        height: 349
+        x: 1495
+        y: 537
+        width: 386
+        height: 267
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f89995086482fae4aaf01164e1f40774
+      spriteID: f2ef433605248a345a1e6bd20637700a
       vertices: []
       indices: 
       edges: []
@@ -195,38 +238,18 @@ TextureImporter:
       name: eugene_sprite_direita_6
       rect:
         serializedVersion: 2
-        x: 1184
-        y: 363
-        width: 503
-        height: 350
+        x: 1934
+        y: 541
+        width: 388
+        height: 266
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6840f26bd8671de4a92737b5ebdae6d1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eugene_sprite_direita_8
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 0
-        width: 510
-        height: 338
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b07f0aa19310dc74993ad0fc782cf466
+      spriteID: 43f574d76b12e2f458e63d8be55518d5
       vertices: []
       indices: 
       edges: []
@@ -234,7 +257,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1f72fbaad8048a745b6e42bf1af38757
+    spriteID: 3b2414a6c567ecf4f8f4789c972346c1
     vertices: []
     indices: 
     edges: []
