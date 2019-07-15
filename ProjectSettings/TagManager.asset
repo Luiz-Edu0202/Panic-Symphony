@@ -13,6 +13,9 @@ TagManager:
   - Player 2
   - Match Controler
   - RIP
+  - Timer Text
+  - Player 1 Score
+  - Player 2 Score
   layers:
   - Default
   - TransparentFX

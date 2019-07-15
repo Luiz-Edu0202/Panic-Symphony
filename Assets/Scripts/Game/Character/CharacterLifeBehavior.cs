@@ -4,19 +4,26 @@ using UnityEngine;
 
 public class CharacterLifeBehavior : MonoBehaviour
 {
-    public GameObject RIP;
-    public GameObject RIPprefabs;
-    public Player WhoIsThisPlayer;
+    [SerializeField]private Player Player;
+    [SerializeField] private Characters Character;
+    //public GameObject RIP;
+    //public GameObject RIPprefabs;
     [SerializeField] private GameObject MatchControler;
     private bool CanTakeDamage = true;
     //This boolean variable keeps whether the character can take damage or not
     [SerializeField] private int LifeCounter = 5;
     //This is the variable that holds the character's life counter
-     public void RestarLife()
-     {
-         LifeCounter = 5;
-     }
-     void OnCollisionEnter2D(Collision2D col)
+     void Update()
+    {
+        Death();
+    }
+    void Start()
+    {
+        Player = GetComponent<CharacterIdentity>().WhoIsThisPlayer;
+        Character = GetComponent<CharacterIdentity>().WhoCharacterHeChoice;
+        MatchControler = GameObject.FindGameObjectWithTag("Match Controler");
+    }
+    void OnCollisionEnter2D(Collision2D col)
     {
         if(col.otherCollider.tag == "Bullet")
         {
@@ -26,21 +33,12 @@ public class CharacterLifeBehavior : MonoBehaviour
         //If the collision object is a bullet
 
     }
-//This method takes the collision data and uses it
+    //This method takes the collision data and uses it
+    public void RestarLife()
+     {
+         LifeCounter = 5;
+     }
 
-    void Update()
-    {
-        Death();
-    }
-    void Start()
-    {
-        MatchControler = GameObject.FindGameObjectWithTag("Match Controler");
-    }
-    IEnumerator TimerRestar()
-    {
-        yield return new WaitForSeconds(3f);
-        //Destroy(RIPprefabs);
-    }
     public void Death()
     {
         
@@ -57,11 +55,11 @@ public class CharacterLifeBehavior : MonoBehaviour
    
     void GivePunctuation()
     {
-        if(WhoIsThisPlayer == Player.Player1)
+        if(Player == Player.Player1)
         {
             MatchControler.GetComponent<GameScoreControler>().PunctuationOfPlayer2();
         }
-        else if(WhoIsThisPlayer == Player.Player2)
+        else if(Player == Player.Player2)
         {
             MatchControler.GetComponent<GameScoreControler>().PunctuationOfPlayer1();
         }
@@ -82,7 +80,7 @@ public class CharacterLifeBehavior : MonoBehaviour
         //If the character can take damage, because of the variable, all of these commands are executable
     }
 //This method is what causes the damage
-public void DamageOfThePowerUp()
+    public void DamageOfThePowerUp()
     {
         if(CanTakeDamage)
         {
@@ -97,7 +95,7 @@ public void DamageOfThePowerUp()
         }
         //If the character can take damage, because of the variable, all of these commands are executable
     }
-//This method is what causes the damage
+    //This method is what causes the damage
 
     IEnumerator DamageTimer()
     {
@@ -108,6 +106,11 @@ public void DamageOfThePowerUp()
         this.gameObject.GetComponent<Collider2D>().enabled = true;
         //This command changes the state of the collider to on
     }
-//This method,is a co-routine, is the timer for the character take other damage
+    //This method,is a co-routine, is the timer for the character take other damage
 
-}
+    IEnumerator TimerRestar()
+        {
+            yield return new WaitForSeconds(3f);
+            //Destroy(RIPprefabs);
+        }
+    }

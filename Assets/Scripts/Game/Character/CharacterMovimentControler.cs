@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class CharacterMovimentControler : MonoBehaviour
 {
-    [SerializeField] private Player WhoisThisPlayer;
-    [SerializeField]private Characters WhoCharacterHeChoice;
+    [SerializeField] private Player Player;
+    [SerializeField] private Characters Character;
  
     public bool CanMovimentate = true; 
     public BulletWay BulletWayOnWalking;
-    public GameObject Bullet;
     //This Variable say whose side go the bullet
     [SerializeField] private float standardSpeed;
     //this variable is what the program uses as default for speed
@@ -17,11 +16,10 @@ public class CharacterMovimentControler : MonoBehaviour
     //This variable is the speed of X axis
     [SerializeField] private float SpeedY;
         //This variable is the speed of Y axis
-    void Star()
+    void Start()
     {
-        WhoisThisPlayer = this.gameObject.GetComponent<CharacterIdentity>().WhoIsThisPlayer;
-        WhoCharacterHeChoice = this.gameObject.GetComponent<CharacterIdentity>().WhoCharacterHeChoice;
-        Bullet = GameObject.FindGameObjectWithTag("Bullet");
+        Player = GetComponent<CharacterIdentity>().WhoIsThisPlayer;
+        Character = this.gameObject.GetComponent<CharacterIdentity>().WhoCharacterHeChoice;
     }
     void Update()
     {
@@ -32,11 +30,11 @@ public class CharacterMovimentControler : MonoBehaviour
     {
         if(CanMovimentate)
         {
-            if(WhoisThisPlayer == Player.Player1)
+            if(Player == Player.Player1)
             {
                 Player1();
             }
-            else if(WhoisThisPlayer == Player.Player2)
+            else if(Player == Player.Player2)
             {
                 Player2();
             }
