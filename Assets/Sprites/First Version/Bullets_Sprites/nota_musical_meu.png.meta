@@ -3,6 +3,15 @@ guid: 9fcf23ace77c0414eb0b4c390e726819
 TextureImporter:
   fileIDToRecycleName:
     21300000: nota_musical_meu_0
+    21300002: nota_musical_meu_1
+    21300004: nota_musical_meu_2
+    21300006: nota_musical_meu_3
+    21300008: nota_musical_meu_4
+    21300010: nota_musical_meu_5
+    21300012: nota_musical_meu_6
+    21300014: nota_musical_meu_7
+    21300016: nota_musical_meu_8
+    21300018: nota_musical_meu_9
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -89,17 +98,197 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 858
-        width: 150
-        height: 142
+        y: 855
+        width: 243
+        height: 145
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: b3c7a24e643b8f346a1f884afdcdf55f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nota_musical_meu_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 850
+        width: 238
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0090152181840994191dab97329bbeb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nota_musical_meu_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 855
+        width: 244
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6752d2343abb04694e9bbd58744eed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nota_musical_meu_3
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 848
+        width: 235
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9bada3b3d0e3e448b0722b1aaf62a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nota_musical_meu_4
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 848
+        width: 264
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e905144c4772cb04d9792b009297ee66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nota_musical_meu_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 658
+        width: 268
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ab1aa44887cf643929c211697d85c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nota_musical_meu_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 642
+        width: 288
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f68373c3574c0489ee20a30a19aec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nota_musical_meu_7
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 623
+        width: 252
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012fb383916adbf4a937f29a6d70d64a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nota_musical_meu_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 609
+        width: 271
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a93e6c6a966dd94294334dee676e042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nota_musical_meu_9
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 596
+        width: 272
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af867cec24de044b85f515b2ee12c3d
       vertices: []
       indices: 
       edges: []

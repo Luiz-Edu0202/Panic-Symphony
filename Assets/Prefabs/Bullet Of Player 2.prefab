@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 6479728381676908936}
   - component: {fileID: 4285868263509193599}
   - component: {fileID: 5023716193263758037}
+  - component: {fileID: 1586200914931271738}
   - component: {fileID: 1266663539697574770}
   - component: {fileID: 2320726002519026404}
   m_Layer: 0
-  m_Name: Bullet 1
+  m_Name: Bullet Of Player 2
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,6 +102,25 @@ MonoBehaviour:
   Bullet: {fileID: 0}
   BulletWaySide: 0
   Speed: 30
+--- !u!95 &1586200914931271738
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157344402581917380}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 84dc610e0dbb5e64a9d164189fc7ece2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &1266663539697574770
 Rigidbody2D:
   serializedVersion: 4
@@ -135,16 +155,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.052789778}
+  m_Offset: {x: -0.028530836, y: -0.016106814}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5, y: 1.42}
+    oldSize: {x: 2.43, y: 1.45}
     newSize: {x: 1.5, y: 1.42}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 1.3144205}
+  m_Size: {x: 2.5515804, y: 1.3877864}
   m_EdgeRadius: 0
