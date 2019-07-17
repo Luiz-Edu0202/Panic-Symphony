@@ -13,6 +13,10 @@ public class CharacterLifeBehavior : MonoBehaviour
     //This boolean variable keeps whether the character can take damage or not
     [SerializeField] private int LifeCounter = 5;
     //This is the variable that holds the character's life counter
+    [SerializeField] private float force;
+    private bool move;
+    private bool stop;
+
      void Update()
     {
         Death();
@@ -22,6 +26,7 @@ public class CharacterLifeBehavior : MonoBehaviour
         Player = GetComponent<CharacterIdentity>().WhoIsThisPlayer;
         Character = GetComponent<CharacterIdentity>().WhoCharacterHeChoice;
         MatchControler = GameObject.FindGameObjectWithTag("Match Controler");
+
     }
     void OnCollisionEnter2D(Collision2D col)
     {
@@ -76,6 +81,7 @@ public class CharacterLifeBehavior : MonoBehaviour
         //This command changes the state of the collider to off
         StartCoroutine("DamageTimer");
         //This command star the co-routine
+        Shake();
         }
         //If the character can take damage, because of the variable, all of these commands are executable
     }
@@ -97,12 +103,32 @@ public class CharacterLifeBehavior : MonoBehaviour
     }
     //This method is what causes the damage
 
+    void Shake()
+    {
+        stop = false;
+        for(;stop;)
+        {
+            if(move)
+            {
+                transform.Translate(force,0,0);
+                move = false;
+            }
+            else
+            {
+                transform.Translate(force,0,0);
+                move = true;
+            }
+        }
+    }
+        
+       
     IEnumerator DamageTimer()
     {
         yield return new WaitForSeconds(3f);
         //this command is the co-routine counter
         CanTakeDamage = true;
         //This set the variable to false
+        stop = true;
         this.gameObject.GetComponent<Collider2D>().enabled = true;
         //This command changes the state of the collider to on
     }
@@ -113,4 +139,7 @@ public class CharacterLifeBehavior : MonoBehaviour
             yield return new WaitForSeconds(3f);
             //Destroy(RIPprefabs);
         }
+    
     }
+    
+    

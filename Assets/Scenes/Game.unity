@@ -946,9 +946,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: 1
-  Character: 0
+  Character: 2
   MatchControler: {fileID: 0}
   LifeCounter: 5
+  force: 0.1
 --- !u!114 &691683507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -962,7 +963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WhoIsThisPlayer: 1
-  WhoCharacterHeChoice: 0
+  WhoCharacterHeChoice: 2
   GameData: {fileID: 0}
 --- !u!114 &691683508
 MonoBehaviour:
@@ -980,6 +981,18 @@ MonoBehaviour:
   Character: 0
   bulletsCount: 5
   BulletPrefab: {fileID: 157344402581917380, guid: 4ec6673dba4861446b163efdbc136631,
+    type: 3}
+  Eugene_Bullet: {fileID: 157344402581917380, guid: 25c2cb5835a051f42b046f6bc563ad11,
+    type: 3}
+  Maurice_Bullet: {fileID: 157344402581917380, guid: 4ec6673dba4861446b163efdbc136631,
+    type: 3}
+  Chuthulu_Bullet: {fileID: 157344402581917380, guid: 878016568c698b9489678597d5df130e,
+    type: 3}
+  Eugene_Bullet2: {fileID: 157344402581917380, guid: c61b7c24f61c2b64d9976aae2e327999,
+    type: 3}
+  Maurice_Bullet2: {fileID: 157344402581917380, guid: 3deee2e88ca556b49bd41be1e5574593,
+    type: 3}
+  Chuthulu_Bullet2: {fileID: 157344402581917380, guid: ca90572a880395b4e8c1dd3535364f28,
     type: 3}
   PositionOnPlayer: {fileID: 691683502}
 --- !u!212 &691683509
@@ -1064,10 +1077,6 @@ MonoBehaviour:
   Player: 1
   Character: 0
   PlayerAnimator: {fileID: 691683510}
-  BulletAnimator: {fileID: 1586200914931271738, guid: 4ec6673dba4861446b163efdbc136631,
-    type: 3}
-  BulletControlerAnimation: {fileID: 9100000, guid: 84dc610e0dbb5e64a9d164189fc7ece2,
-    type: 2}
   EugeneAnimation: {fileID: 9100000, guid: 853d8183f91d20b468d01c31cef4c9c0, type: 2}
   MauriceAnimation: {fileID: 9100000, guid: 67b5087eba3370b459e4695fe39bbca8, type: 2}
   ChuthuluAnimation: {fileID: 9100000, guid: eb93ab8c4291c7d479eda92c647ba7c4, type: 2}
@@ -2729,6 +2738,7 @@ MonoBehaviour:
   Character: 0
   MatchControler: {fileID: 0}
   LifeCounter: 5
+  force: 1
 --- !u!114 &2122263458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2746,6 +2756,18 @@ MonoBehaviour:
   bulletsCount: 5
   BulletPrefab: {fileID: 157344402581917380, guid: 25c2cb5835a051f42b046f6bc563ad11,
     type: 3}
+  Eugene_Bullet: {fileID: 157344402581917380, guid: 25c2cb5835a051f42b046f6bc563ad11,
+    type: 3}
+  Maurice_Bullet: {fileID: 157344402581917380, guid: 4ec6673dba4861446b163efdbc136631,
+    type: 3}
+  Chuthulu_Bullet: {fileID: 157344402581917380, guid: 878016568c698b9489678597d5df130e,
+    type: 3}
+  Eugene_Bullet2: {fileID: 157344402581917380, guid: c61b7c24f61c2b64d9976aae2e327999,
+    type: 3}
+  Maurice_Bullet2: {fileID: 157344402581917380, guid: 3deee2e88ca556b49bd41be1e5574593,
+    type: 3}
+  Chuthulu_Bullet2: {fileID: 157344402581917380, guid: ca90572a880395b4e8c1dd3535364f28,
+    type: 3}
   PositionOnPlayer: {fileID: 2122263453}
 --- !u!114 &2122263459
 MonoBehaviour:
@@ -2760,7 +2782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WhoIsThisPlayer: 0
-  WhoCharacterHeChoice: 0
+  WhoCharacterHeChoice: 1
   GameData: {fileID: 0}
 --- !u!95 &2122263460
 Animator:
@@ -2844,10 +2866,6 @@ MonoBehaviour:
   Player: 0
   Character: 0
   PlayerAnimator: {fileID: 2122263460}
-  BulletAnimator: {fileID: 4931455876455763734, guid: 25c2cb5835a051f42b046f6bc563ad11,
-    type: 3}
-  BulletControlerAnimation: {fileID: 9100000, guid: 84dc610e0dbb5e64a9d164189fc7ece2,
-    type: 2}
   EugeneAnimation: {fileID: 9100000, guid: 853d8183f91d20b468d01c31cef4c9c0, type: 2}
   MauriceAnimation: {fileID: 9100000, guid: 67b5087eba3370b459e4695fe39bbca8, type: 2}
   ChuthuluAnimation: {fileID: 9100000, guid: eb93ab8c4291c7d479eda92c647ba7c4, type: 2}

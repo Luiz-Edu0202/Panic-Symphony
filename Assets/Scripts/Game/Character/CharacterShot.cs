@@ -9,12 +9,20 @@ public class CharacterShot : MonoBehaviour
     [SerializeField] private int bulletsCount;
     [SerializeField] private GameObject BulletPrefab;
     //This Variable keep the prefab of the bullet
+    [SerializeField] private GameObject Eugene_Bullet;
+    [SerializeField] private GameObject Maurice_Bullet;
+    [SerializeField] private GameObject Chuthulu_Bullet;
+    [SerializeField] private GameObject Eugene_Bullet2;
+    [SerializeField] private GameObject Maurice_Bullet2;
+    [SerializeField] private GameObject Chuthulu_Bullet2;
+
     [SerializeField] private Transform PositionOnPlayer;
     //This Variable Keep the Component Tranform of the player
     void Start()
     {
         Player = GetComponent<CharacterIdentity>().WhoIsThisPlayer;
         Character = GetComponent<CharacterIdentity>().WhoCharacterHeChoice;
+        BulletAnimation();
     }
     void Update()
     {
@@ -22,6 +30,39 @@ public class CharacterShot : MonoBehaviour
         Recharge();
     }
     // Update is called once per frame
+    void BulletAnimation()
+    {
+       if(Player == Player.Player1)
+       {
+            if(Character == Characters.Eugene)
+            {   
+                BulletPrefab = Eugene_Bullet;
+            }
+            else if(Character == Characters.Cthulhu)
+            {
+            BulletPrefab = Chuthulu_Bullet;
+            }
+            else if(Character == Characters.Maurice)
+            {
+                BulletPrefab = Maurice_Bullet;
+            }
+       }
+        else if(Player == Player.Player2)
+       {
+            if(Character == Characters.Eugene)
+            {   
+                BulletPrefab = Eugene_Bullet2;
+            }
+            else if(Character == Characters.Cthulhu)
+            {
+            BulletPrefab = Chuthulu_Bullet2;
+            }
+            else if(Character == Characters.Maurice)
+            {
+                BulletPrefab = Maurice_Bullet2;
+            }
+       }
+    }
     void Shot()
     {
             if(bulletsCount >  0)

@@ -93,7 +93,7 @@ public class CharacterMovimentControler : MonoBehaviour
             //This method set the velocity(velocity of the Componet Rigidbody2D) to the two velocitys (Speed x, Speed Y)
             if(Input.GetKeyDown(KeyCode.UpArrow))
             {   
-                
+                 BulletWayOnWalking = BulletWay.Up;
             }
             else if(Input.GetKeyDown(KeyCode.DownArrow))
             {   

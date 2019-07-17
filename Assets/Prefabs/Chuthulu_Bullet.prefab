@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 6479728381676908936}
   - component: {fileID: 4285868263509193599}
   - component: {fileID: 5023716193263758037}
-  - component: {fileID: 4931455876455763734}
+  - component: {fileID: 1586200914931271738}
   - component: {fileID: 1266663539697574770}
   - component: {fileID: 2320726002519026404}
   m_Layer: 0
-  m_Name: Bullet Of Player 1
+  m_Name: Chuthulu_Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157344402581917380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.478, y: -1.44, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.61, z: 0.61}
+  m_LocalPosition: {x: -16.253, y: -0.569, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9fcf23ace77c0414eb0b4c390e726819, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 65c60bd78d9fd3b4382b4fe3e1a50e3e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
   Bullet: {fileID: 0}
   BulletWaySide: 0
   Speed: 30
---- !u!95 &4931455876455763734
+--- !u!95 &1586200914931271738
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -112,7 +112,7 @@ Animator:
   m_GameObject: {fileID: 157344402581917380}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 84dc610e0dbb5e64a9d164189fc7ece2, type: 2}
+  m_Controller: {fileID: 9100000, guid: a621e217068711d4491e46faf0956a33, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -155,16 +155,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.043691874, y: 0.005466819}
+  m_Offset: {x: 0.07992792, y: 0.018578649}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.43, y: 1.45}
+    oldSize: {x: 4.0099998, y: 4.5099998}
     newSize: {x: 1.5, y: 1.42}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.6942644, y: 1.4891906}
+  m_Size: {x: 4.718442, y: 4.7844553}
   m_EdgeRadius: 0

@@ -8,8 +8,6 @@ public class CharacterAnimation : MonoBehaviour
     [SerializeField] private Player Player;
     [SerializeField] private Characters Character;
     public Animator PlayerAnimator;
-    public Animator BulletAnimator;
-    public RuntimeAnimatorController BulletControlerAnimation;
     public RuntimeAnimatorController EugeneAnimation;
     public RuntimeAnimatorController MauriceAnimation;
     public RuntimeAnimatorController ChuthuluAnimation;
@@ -22,7 +20,6 @@ public class CharacterAnimation : MonoBehaviour
         Player = GetComponent<CharacterIdentity>().WhoIsThisPlayer;
         Character = this.gameObject.GetComponent<CharacterIdentity>().WhoCharacterHeChoice;
         CharacterAnimationChoicer();
-        BulletAnimation();
     }
 
    
@@ -45,27 +42,6 @@ public class CharacterAnimation : MonoBehaviour
     void Update()
     {
         MovimentateAnimation();
-    }
-    void BulletAnimation()
-    {
-        if(Character == Characters.Eugene)
-        {   
-            BulletAnimator.SetBool("Eugene", true);
-            BulletAnimator.SetBool("Chuthulu", false);
-            BulletAnimator.SetBool("Maurice", false);
-        }
-        else if(Character == Characters.Cthulhu)
-        {
-            BulletAnimator.SetBool("Eugene", false);
-            BulletAnimator.SetBool("Chuthulu", true);
-            BulletAnimator.SetBool("Maurice", false);
-        }
-        else if(Character == Characters.Maurice)
-        {
-            BulletAnimator.SetBool("Eugene", false);
-            BulletAnimator.SetBool("Chuthulu", false);
-            BulletAnimator.SetBool("Maurice", true);
-        }
     }
     void MovimentateAnimation()
     {
