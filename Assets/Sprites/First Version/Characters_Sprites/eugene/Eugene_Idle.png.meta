@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: e24e58835813e2e4c8594b218964583d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Eugene_Idle_0
+    21300002: Eugene_Idle_1
+    21300004: Eugene_Idle_2
+    21300006: Eugene_Idle_3
+    21300008: Eugene_Idle_4
+    21300010: Eugene_Idle_5
+    21300012: Eugene_Idle_6
+    21300014: Eugene_Idle_7
+    21300016: Eugene_Idle_8
+    21300018: Eugene_Idle_9
+    21300020: Eugene_Idle_10
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Eugene_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 821
+        width: 316
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32cf6fef4417e3489ae1479d5b68d28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eugene_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 829
+        width: 315
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.54200864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8b5a49b9792cc41a25012dc678e9d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eugene_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 849
+        width: 316
+        height: 305
+      alignment: 9
+      pivot: {x: 0.49302095, y: 0.5650787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d50fb9070c8a984abf29687dfcbf74a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eugene_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 849
+        width: 313
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.5661633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40907b4c8d086c4b8182110d0b27388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eugene_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 855
+        width: 316
+        height: 294
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.5825166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61215745811ce104c86ba5425159bde9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eugene_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 844
+        width: 315
+        height: 298
+      alignment: 9
+      pivot: {x: 0.492999, y: 0.59621066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b582255587f14604cb998e55a185f4e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eugene_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 465
+        width: 313
+        height: 301
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.5879245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53c2151faaddd1429576ec030e9e211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eugene_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 459
+        width: 316
+        height: 305
+      alignment: 9
+      pivot: {x: 0.49302095, y: 0.5795406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544b16aa21d3674498b60c09d3a519f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eugene_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 452
+        width: 315
+        height: 316
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.56979257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fdf5c501c530d458a7986aea6042c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eugene_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 448
+        width: 314
+        height: 318
+      alignment: 9
+      pivot: {x: 0.4929767, y: 0.5693536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41de8155177ceab45b09144c9d70943d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f64104db272b22b44a1a6d0e126dde0f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

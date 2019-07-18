@@ -5,6 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneControler : MonoBehaviour
 {
+    public void AudioMute()
+    {
+        GetComponent<AudioSource>().mute = true;
+    }
+    public void AudioRevert()
+    {
+        GetComponent<AudioSource>().mute = false;
+    }
     public void Click_On_Play()
     {
         SceneManager.LoadScene("GameSettings");
@@ -18,6 +26,7 @@ public class SceneControler : MonoBehaviour
         //this comand to load the other scene
         DontDestroyOnLoad(this.gameObject);
         //this comand keeps the data of the game to other scene
+        GetComponent<AudioSource>().enabled = false;
     }
      //This method is used by the Game Settings Buttons for change the scene and take the game data for the other scene
 

@@ -11,7 +11,7 @@ public class CharacterLifeBehavior : MonoBehaviour
     [SerializeField] private GameObject MatchControler;
     private bool CanTakeDamage = true;
     //This boolean variable keeps whether the character can take damage or not
-    [SerializeField] private int LifeCounter = 5;
+    public int LifeCounter = 5;
     //This is the variable that holds the character's life counter
     [SerializeField] private float force;
     private bool move;

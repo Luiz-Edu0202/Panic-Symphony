@@ -29,6 +29,7 @@ public class GameScoreControler : MonoBehaviour
     public void PunctuationOfPlayer1()
     {
         Player1Score++;
+        
         //Instantiate(Player2,new Vector3(-5,3.5f,0),Quaternion.identity);
         Player2.transform.position = new Vector3(5,3.5f,0);
         Player2.GetComponent<CharacterLifeBehavior>().RestarLife();
