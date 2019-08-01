@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: 91362d5b90359754781c6538bf45e53f
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Button_Play_0
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Button_Play_0
+  - first:
+      213: -8790886740884608613
+    second: Button_Play_1
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -93,13 +98,35 @@ TextureImporter:
         width: 374
         height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: c58cc0dbe6fedfd478708ef9fe7fec28
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Play_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 379
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca0c2227abb69446b9c60cf95784b89
+      internalID: -8790886740884608613
       vertices: []
       indices: 
       edges: []
@@ -108,10 +135,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 4a1493ff3285d534aaeaf2dde7397c9f
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -35,11 +35,11 @@ public class MatchTimeControler : MonoBehaviour
     {
         if(GetComponent<GameScoreControler>().Player1Score > GetComponent<GameScoreControler>().Player2Score)
         {
-            Instantiate(WinShower,new Vector3(-2.2f,-0.4f,0), Quaternion.identity);
+            WinShower.transform.position = new Vector3(465f,309f,0);
         }
         else if(GetComponent<GameScoreControler>().Player1Score < GetComponent<GameScoreControler>().Player2Score)
         {
-            Instantiate(WinShower,new Vector3(2.2f,-0.4f,0), Quaternion.identity);
+            WinShower.transform.position = new Vector3(465f,309f,0);
         }
     }
 }

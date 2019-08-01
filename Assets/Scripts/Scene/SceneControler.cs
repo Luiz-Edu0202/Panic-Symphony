@@ -20,6 +20,11 @@ public class SceneControler : MonoBehaviour
     }
     //This method is used by the button for change the scene from the menu to the Game Settings
    
+   public void Click_On_Credits()
+    {
+        SceneManager.LoadScene("Credits");
+        //this comand load the other scene
+    }
     public void End_Choice_Character()
     {   
         SceneManager.LoadScene("Game");
