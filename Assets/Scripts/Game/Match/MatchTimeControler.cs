@@ -17,17 +17,22 @@ public class MatchTimeControler : MonoBehaviour
     void Update()
     {
         TimerTex.GetComponent<Text>().text = TimerOfMatch.ToString();
+        if(TimerOfMatch <= 0)
+            {
+                Time.timeScale = 0;
+                EndOfMatch();
+            }
+        else if (TimerOfMatch > 0)
+            {
+                Time.timeScale = 1f;
+            }
     }
     IEnumerator Timer()
     {
         for(;TimerOfMatch >= 0 ;TimerOfMatch--)
         {
             yield return new WaitForSeconds(1f);
-            if(TimerOfMatch <= 0)
-            {
-                Time.timeScale = 0;
-                EndOfMatch();
-            }
+            
         }
     }
 
@@ -35,11 +40,11 @@ public class MatchTimeControler : MonoBehaviour
     {
         if(GetComponent<GameScoreControler>().Player1Score > GetComponent<GameScoreControler>().Player2Score)
         {
-            WinShower.transform.position = new Vector3(465f,309f,0);
+            WinShower.transform.position = new Vector3(960f,531,0);
         }
         else if(GetComponent<GameScoreControler>().Player1Score < GetComponent<GameScoreControler>().Player2Score)
         {
-            WinShower.transform.position = new Vector3(465f,309f,0);
+            WinShower.transform.position = new Vector3(960f,531,0);
         }
     }
 }

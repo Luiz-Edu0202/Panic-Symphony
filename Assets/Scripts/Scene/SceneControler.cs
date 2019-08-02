@@ -19,6 +19,11 @@ public class SceneControler : MonoBehaviour
         //this comand load the other scene
     }
     //This method is used by the button for change the scene from the menu to the Game Settings
+    public void Click_On_Retry()
+    {
+        SceneManager.LoadScene("GameSettings");
+        //this comand load the other scene
+    }
    
    public void Click_On_Credits()
     {

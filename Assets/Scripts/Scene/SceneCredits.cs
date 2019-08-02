@@ -7,9 +7,8 @@ public class SceneCredits : MonoBehaviour
 {
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
         StartCoroutine("EndOfVideo");
     }
 
@@ -17,6 +16,7 @@ public class SceneCredits : MonoBehaviour
     IEnumerator EndOfVideo()
     {
         yield return new WaitForSeconds(15f);
+        print("Termino");
         SceneManager.LoadScene("GameSettings");
     }
    
